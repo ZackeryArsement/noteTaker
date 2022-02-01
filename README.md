@@ -4,19 +4,19 @@
 Title: ***Note Taker*** \
 Developer: **Zackery Arsement** \
 Deployment Date:  2/1/2022 \
-For:  UT JavaScript Coding Bootcamp \
+For:  UT JavaScript Coding Bootcamp
 
 # Access Project
 
-- ### [Github Repository](https://github.com/ZackeryArsement/teamGenerator)
+- ### [Github Repository](https://github.com/ZackeryArsement/noteTaker)
 - ### [Deployed Application](https://note-taker-zarsement.herokuapp.com/)
 
 # Table of Contents
 
-- ### [Built-With](#built-with)\
-- ### [Summary](#summary)\
-- ### [Development](#development)\
-- ### [License](#license)
+-[Built-With](#built-with)
+-[Summary](#summary)
+-[Development](#development)
+-[License](#license)
 
 # Built-With
 
@@ -32,8 +32,8 @@ For:  UT JavaScript Coding Bootcamp \
 
 ![Generated HTML](https://github.com/ZackeryArsement/noteTaker/blob/main/Assets/11-express-homework-demo-01.png)
 
-* The ***Note Taker*** allows a user to create a list of notes for future use. \
-* The user starts off at a home page where they can initialize the note taker application. \
+* The ***Note Taker*** allows a user to create a list of notes for future use.
+* The user starts off at a home page where they can initialize the note taker application.
 * While the note taker application is open the user can create notes with a title, save notes to a list, and delete an existing saved note.
 
 ![Gif of Use](https://github.com/ZackeryArsement/noteTaker/blob/main/Assets/noteTaker.gif)
