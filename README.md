@@ -13,10 +13,10 @@ For:  UT JavaScript Coding Bootcamp
 
 # Table of Contents
 
--[Built-With](#built-with)
--[Summary](#summary)
--[Development](#development)
--[License](#license)
+-[Built-With](#built-with) \
+-[Summary](#summary) \
+-[Development](#development) \
+-[Questions](#questions)
 
 # Built-With
 
@@ -42,5 +42,7 @@ For:  UT JavaScript Coding Bootcamp
 
 The ***Note Taker*** Application works by storing note data into a .json file. When the user puts text into the title input and text input of the note form then the save icon becomes available to the user. When the user clicks on the save icon the data in the note is appended to the .json file. All the notes stored in the .json file can be seen on the left hand side of the web application. When the user clicks on a saved note the text and title data assigned to that note is copied from the .json file and displayed over the input form. Additionally, if the user clicks on the delete button on the side of a saved note then the note in the .json with the same id is deleted.
 
-# License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Questions
+
+Email:
+zarsement@hotmail.com
