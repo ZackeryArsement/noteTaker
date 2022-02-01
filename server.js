@@ -1,6 +1,9 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+const util = require('util');
+
+const readFromFile = util.promisify(fs.readFile);
 
 // Helper method for generating unique ids
 const uuid = require('./helpers/uuid');
@@ -47,11 +50,23 @@ app.post('/api/notes', (req, res) => {
     };
 
     readAndAppend(newTip, './db/db.json');
-    res.json(`Tip added successfully 🚀`);
+    res.json(`Note added successfully 🚀`);
   } else {
     res.error('Error in adding tip');
   }
 });
+
+app.delete('/api/notes/:id', (req, res) => {
+
+  readFromFile('./db/db.json').then((data) => {
+    const dataJSON = JSON.parse(data);
+    const newArray = dataJSON.filter((e) => e.id !== req.params.id);
+
+    writeToFile('./db/db.json', newArray);
+  });
+
+  res.json(`Note deleted successfully 🚀`);
+})
 
 // Append data content to a given file in JSON format
 const readAndAppend = (content, file) => {
